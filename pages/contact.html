@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles.css">
+        <script src="contact.js"></script>
+    </head>
+    <body>
+        <h1>BIZ Cloud Solutions: Contact Us</h1>
+        <div>
+            <nav>
+                <ol>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <div>
+            <h1>Contact us</h1>
+            <p>You want to contact us? Well, we just so happen to have a couple
+                of options here for you to contact our lovely headquarters.
+            </p>
+            <p>So essentially, here are your options:</p>
+            <form style="display: grid;" onsubmit="SubmitForm()" action="./extra pages/submit.html">
+                <label>Name: </label>
+                <input type="text" placeholder="Your First & Last Name">
+                <label>Date of Birth: </label>
+                <input type="date" placeholder="Your Name">
+                <label>Credit Card Number </label>
+                <input type="text">
+                <label>Expiry Date </label>
+                <input type="month">
+                <label>Gender </label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+                <label>Write a <b>1000</b> character long essay on why you want to contact us with complex descriptions and go into
+                excruciating detail about every thought and action you took today that lead up to your contacting desires.</label>
+                <p id="counterText">Character Count: 0/1000</p>
+                <textarea id="essay"></textarea>
+                <p id="onWayThere">You are 0% of the way there!</p>
+                <input type="submit" id="contactSubmit" value="Submit Informations" disabled="true">
+            </form>
+        </div>
+    </body>
+    <script>
+        // Show a message before going to the next page.
+        function SubmitForm() {
+            alert("Sorry to break it to ya but...");
+        }
+    </script>
+</html>

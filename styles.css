@@ -1,0 +1,19 @@
+body {
+    max-width: 66%;
+    color: skyblue;
+    background-color: black;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+}
+
+a {
+    font-style: italic;
+    color: springgreen;
+}
+
+table, th, td {
+    border: 2px solid gray;
+}
